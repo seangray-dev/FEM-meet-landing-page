@@ -9,7 +9,6 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
-- [Continued development](#continued-development)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -40,11 +39,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - TailWindCSS
-
-### Continued development
-
-- Find a better way to display the hero image
-- Fix hover effects on gradient-background buttons
 
 ## Author
 
