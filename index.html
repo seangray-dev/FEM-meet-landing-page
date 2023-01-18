@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Meet landing page</title>
+    <!-- Styles -->
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-bg">
+    <header>
+      <img
+        class="mx-auto mt-12 mb-14"
+        src="./assets/logo.svg"
+        alt="meet-logo"
+      />
+    </header>
+    <section>
+      <div class="lg:hidden mb-12 md:mb-[72px]">
+        <img class="mx-auto" src="./assets/tablet/image-hero.png" alt="#" />
+      </div>
+      <div class="flex justify-around overflow-hidden">
+        <img
+          class="hidden grow-0 lg:block"
+          src="./assets/desktop/image-hero-left.png"
+          alt="#"
+        />
+        <div
+          class="max-w-[540px] grow shrink-0 flex flex-col text-center mx-[88px]"
+        >
+          <h1 class="text-darkBlue text-h2 md:text-5xl lg:text-h1 mb-[34px]">
+            Group Chat <br />
+            for Everyone
+          </h1>
+          <p
+            class="mx-auto max-w-[330px] md:max-w-none text-base md:text-body text-grey mb-8"
+          >
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="flex justify-center gap-4 flex-col md:flex-row mb-16">
+            <a
+              class="mx-auto md:mx-0 max-w-[330px] md:max-w-none btn bg-teal hover:bg-tealHover"
+              href="#"
+              >Download <span class="text-turqoise">v1.3</span></a
+            >
+            <a
+              class="mx-auto md:mx-0 max-w-[330px] md:max-w-none btn bg-softPurple hover:bg-softPurpleHover"
+              href="#"
+              >What is it?</a
+            >
+          </div>
+        </div>
+        <img
+          class="hidden lg:block grow-0"
+          src="./assets/desktop/image-hero-right.png"
+          alt="#"
+        />
+      </div>
+
+      <div class="mb-16 md:mb-[67px] lg:mb-16">
+        <div class="horizontal-line"></div>
+        <div
+          class="mx-auto flex items-center justify-center text-grey text-center text-body h-[56px] w-[56px] border rounded-full"
+        >
+          01
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="container grid grid-cols-2 gap-[25px] md:gap-[11px] lg:gap-[30px] md:grid-cols-4 mb-16 md:mb-12 lg:mb-20"
+      >
+        <img
+          class="rounded-lg"
+          src="./assets/desktop/image-woman-in-videocall.jpg"
+          alt="woman-in-video-call"
+        />
+        <img
+          class="rounded-lg"
+          src="./assets/desktop/image-women-videochatting.jpg"
+          alt="women-in-video-call"
+        />
+
+        <img
+          class="rounded-lg"
+          src="./assets/desktop/image-men-in-meeting.jpg"
+          alt="man-in-meeting"
+        />
+        <img
+          class="rounded-lg"
+          src="./assets/desktop/image-man-texting.jpg"
+          alt="man-texting"
+        />
+      </div>
+      <div class="mx-auto px-6 text-center mb-16">
+        <h3 class="text-overline uppercase text-teal mb-6 md:mb-4">
+          Built for modern use
+        </h3>
+        <h2
+          class="md:max-w-[340px] mx-auto text-[32px] text-h2 text-darkBlue mb-8"
+        >
+          Smarter meetings, all in one place
+        </h2>
+        <p
+          class="mx-auto md:max-w-[573px] lg:max-w-[540px] text-base md:text-body text-grey"
+        >
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </div>
+      <div class="horizontal-line"></div>
+      <div
+        class="relative mx-auto flex items-center justify-center text-grey text-center text-body h-[56px] w-[56px] border rounded-full bg-bg -mb-8 z-10"
+      >
+        02
+      </div>
+    </section>
+    <footer class="z-0 bg-teal relative">
+      <div class="">
+        <img
+          class="md:hidden w-full h-full object-cover absolute mix-blend-normal opacity-10"
+          src="./assets/mobile/image-footer.jpg"
+          alt="#"
+          aria-label="hidden"
+        />
+        <img
+          class="hidden md:block lg:hidden w-full h-full object-cover absolute mix-blend-normal opacity-10"
+          src="./assets/desktop/image-footer.jpg"
+          alt="#"
+          aria-label="hidden"
+        />
+        <img
+          class="lg:block hidden w-full h-full object-cover absolute mix-blend-normal opacity-10 object-top"
+          src="./assets/desktop/image-footer.jpg"
+          alt="#"
+          aria-label="hidden"
+        />
+      </div>
+
+      <div
+        class="md:container lg:py-28 flex justify-between flex-col lg:flex-row items-center"
+      >
+        <h2
+          class="mt-[92px] lg:max-w-[350px] lg:text-left lg:mt-0 text-center text-white text-[32px] font-black md:text-h2 mb-6 lg:mb-0"
+        >
+          Experience more together
+        </h2>
+        <p
+          class="mx-auto max-w-[290px] md:max-w-[500px] lg:max-w-[310px] text-center lg:text-left text-white mb-8 lg:mb-0"
+        >
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <a
+          class="z-50 mx-auto md:mx-0 max-w-[330px] md:max-w-none btn bg-softPurple hover:bg-softPurpleHover mb-[72px] lg:mb-0"
+          href="#"
+          >Download <span class="text-violet">v1.3</span></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

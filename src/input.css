@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Red Hat Display", sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    border-radius: 1.75rem;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .container {
+    max-width: 330px;
+    margin-inline: auto;
+    padding: 0 24px;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 690px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1110px;
+    }
+  }
+
+  .horizontal-line::before,
+  .horizontal-line::after {
+    margin-inline: auto;
+    content: "";
+    width: 1px;
+    height: 42px;
+    background-color: #87879d;
+    opacity: 0.25;
+    display: block;
+  }
+}
